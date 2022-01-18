@@ -22,7 +22,7 @@
 
     onMounted(async () => {
         client = await obs({
-            password: 'test',
+            // password: 'test',
             debug: true,
         });
         connected.value = true;

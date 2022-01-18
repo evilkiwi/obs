@@ -25,4 +25,22 @@ npm install @tnotifier/obs
 
 ## Usage
 
-TODO:
+```typescript
+import { obs } from '@tnotifier/obs';
+
+const client = await obs({ debug: true });
+
+// Asynchronous requests.
+const allScenes = await client.request('GetSceneList');
+
+// Subscriptions.
+client.events.on('SwitchScenes', ({ sceneName }: any) => {
+    console.log(`Active Scene was changed to ${sceneName}`);
+});
+```
+
+## To-do
+
+- Fully type the responses and provided methods from XJS
+- Allow running in NodeJS via `ws`
+
