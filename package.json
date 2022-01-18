@@ -1,0 +1,49 @@
+{
+    "name": "@tnotifier/obs",
+    "version": "1.0.0",
+    "description": "OBS Studio WebSocket Client",
+    "files": ["build"],
+    "sideEffects": false,
+    "main": "./build/index.cjs.js",
+    "module": "./build/index.es.js",
+    "types": "./build/src/index.d.ts",
+    "license": "GPL-3.0-only",
+    "author": {
+        "name": "CastHub Limited",
+        "url": "https://tnotifier.app",
+        "email": "support@tnotifier.app"
+    },
+    "homepage": "https://github.com/tnotifier/obs",
+    "bugs": {
+        "url": "https://github.com/tnotifier/obs/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/tnotifier/obs.git"
+    },
+    "keywords": [
+        "obs",
+        "api",
+        "websocket",
+        "typescript"
+    ],
+    "scripts": {
+        "clean": "rimraf build",
+        "prepack": "yarn build",
+        "build": "yarn clean && yarn compile",
+        "compile": "vite build",
+        "dev": "vite build --watch"
+    },
+    "dependencies": {
+        "@aws-crypto/sha256-browser": "^2.0.1",
+        "@tnotifier/logger": "^1.0.4",
+        "nanoevents": "^6.0.2"
+    },
+    "devDependencies": {
+        "rimraf": "^3.0.2",
+        "tslib": "^2.3.0",
+        "typescript": "^4.3.5",
+        "vite": "^2.4.3",
+        "vite-plugin-dts": "^0.5.3"
+    }
+}
