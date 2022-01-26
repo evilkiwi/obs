@@ -1,8 +1,10 @@
 {
     "name": "@tnotifier/obs",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "description": "OBS Studio WebSocket Client",
-    "files": ["build"],
+    "files": [
+        "build"
+    ],
     "sideEffects": false,
     "main": "./build/index.cjs.js",
     "module": "./build/index.es.js",
@@ -40,10 +42,11 @@
         "nanoevents": "^6.0.2"
     },
     "devDependencies": {
+        "@types/node": "^14.18.9",
         "rimraf": "^3.0.2",
-        "tslib": "^2.3.0",
-        "typescript": "^4.3.5",
-        "vite": "^2.4.3",
-        "vite-plugin-dts": "^0.5.3"
+        "tslib": "^2.3.1",
+        "typescript": "^4.5.5",
+        "vite": "^2.7.13",
+        "vite-plugin-dts": "^0.9.9"
     }
 }
