@@ -13,7 +13,7 @@ export const obs = async (options: Options = {}) => {
         ...options,
     };
 
-    const events = createNanoEvents<Events>();
+    const events = options.events ?? createNanoEvents<Events>();
     const logger = createLogger({ name: 'obs' });
 
     if (!debug) {
