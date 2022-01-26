@@ -128,3 +128,5 @@ export const obs = async (options: Options = {}) => {
 
     return { events, send, request, logger, disconnect };
 };
+
+export type { Options };
