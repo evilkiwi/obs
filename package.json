@@ -1,5 +1,5 @@
 {
-    "name": "@tnotifier/obs",
+    "name": "@evilkiwi/obs",
     "version": "1.0.5",
     "description": "OBS Studio WebSocket Client",
     "files": [
@@ -11,17 +11,17 @@
     "types": "./build/src/index.d.ts",
     "license": "GPL-3.0-only",
     "author": {
-        "name": "CastHub Limited",
-        "url": "https://tnotifier.app",
-        "email": "support@tnotifier.app"
+        "name": "Evil Kiwi Limited",
+        "url": "https://evil.kiwi",
+        "email": "support@evil.kiwi"
     },
-    "homepage": "https://github.com/tnotifier/obs",
+    "homepage": "https://github.com/evilkiwi/obs",
     "bugs": {
-        "url": "https://github.com/tnotifier/obs/issues"
+        "url": "https://github.com/evilkiwi/obs/issues"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/tnotifier/obs.git"
+        "url": "git+https://github.com/evilkiwi/obs.git"
     },
     "keywords": [
         "obs",
@@ -38,7 +38,7 @@
     },
     "dependencies": {
         "@aws-crypto/sha256-browser": "^2.0.1",
-        "@tnotifier/logger": "^1.0.4",
+        "@evilkiwi/logger": "^1.0.4",
         "nanoevents": "^6.0.2"
     },
     "devDependencies": {

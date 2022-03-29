@@ -86,6 +86,29 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@evilkiwi/logger@npm:^1.0.4":
+  version: 1.0.5
+  resolution: "@evilkiwi/logger@npm:1.0.5"
+  checksum: 33d7e0e059dcbb4442e05a4e3f2ff3e367bbd891a37790844dd9ba9ff93e09ca2a8c43f5c2207326177a58f70c8e06f714eaae8878860958a417bed14f43cc51
+  languageName: node
+  linkType: hard
+
+"@evilkiwi/obs@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "@evilkiwi/obs@workspace:."
+  dependencies:
+    "@aws-crypto/sha256-browser": ^2.0.1
+    "@evilkiwi/logger": ^1.0.4
+    "@types/node": ^14.18.9
+    nanoevents: ^6.0.2
+    rimraf: ^3.0.2
+    tslib: ^2.3.1
+    typescript: ^4.5.5
+    vite: ^2.7.13
+    vite-plugin-dts: ^0.9.9
+  languageName: unknown
+  linkType: soft
+
 "@gar/promisify@npm:^1.0.1":
   version: 1.1.2
   resolution: "@gar/promisify@npm:1.1.2"
@@ -139,29 +162,6 @@ __metadata:
   checksum: c96381d4a37448ea280951e46233f7e541058cf57a57d4094dd4bdcaae43fa5872b5f2eb6bfb004591a68e29c5877abe3cdc210cb3588cbf20ab2877f31a7de7
   languageName: node
   linkType: hard
-
-"@tnotifier/logger@npm:^1.0.4":
-  version: 1.0.4
-  resolution: "@tnotifier/logger@npm:1.0.4"
-  checksum: e4bac2d534de99ceaae50d435676073c92dc85b82fd8b9a7420c058529df01e1ead004891ba1f7e8616d3febf8a7fb823856de9ec062678d3f613e5fce387753
-  languageName: node
-  linkType: hard
-
-"@tnotifier/obs@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "@tnotifier/obs@workspace:."
-  dependencies:
-    "@aws-crypto/sha256-browser": ^2.0.1
-    "@tnotifier/logger": ^1.0.4
-    "@types/node": ^14.18.9
-    nanoevents: ^6.0.2
-    rimraf: ^3.0.2
-    tslib: ^2.3.1
-    typescript: ^4.5.5
-    vite: ^2.7.13
-    vite-plugin-dts: ^0.9.9
-  languageName: unknown
-  linkType: soft
 
 "@tootallnate/once@npm:1":
   version: 1.1.2

@@ -1,4 +1,4 @@
-import { createLogger } from '@tnotifier/logger';
+import { createLogger } from '@evilkiwi/logger';
 import { createNanoEvents } from 'nanoevents';
 import type { AsyncRegistry, Events, Options } from '@/types';
 import { camelCaseObj, hash, rand } from '@/helpers';
